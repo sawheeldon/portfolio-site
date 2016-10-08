@@ -133,7 +133,7 @@ place all the mobile tables styles bellow this line
 for example the statament above says: IF the media on which this CSS is going to used is SCREEN (Mobiles, Tables, Laptops, Desktops or Projectors) and the maximum resolution of that device is 1024px, THEN apply the body color blue for all the text
 */
 body {
-    color: blue;
+    
 }
 /*ipad potrait*/
 @media only screen and (max-width: 768px) {
@@ -147,7 +147,6 @@ body {
 /*iPhone landscape*/
 @media only screen and (max-width: 480px) {
     body {
-        color: green;
         font-size:17px;
     }
     h1{
@@ -162,16 +161,13 @@ body {
         font-size:25px;
         padding:0.2rem;
     }
-
     button{
         font-size: 13px;
     }
 }
 /*iPhone portrait*/
 @media only screen and (max-width: 320px) {
-    body {
-        color: purple;
-    }
+
     header{
         padding:1rem;
     }
