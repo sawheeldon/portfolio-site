@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Boogaloo|Raleway|Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
+      <!-- Title -->
     <title>Portfolio Site</title>
+
   </head>
   <body>
     <!--Start of Title for site with image headshot -->
@@ -30,48 +35,48 @@
 
       <!--Start of Portfolio section -->
       <section class="portfolioLinks">
-          <div>
+        <h3>My Projects</h3>
+          <div class="projectButtons">
             <button id="projectOneButton">Project One</button>
-            <p class="projectOne" id="projectOneText">Project One aka Soccernopoly shows my knowledge of an API call using AJAX, JavaScript and jQuery.Please click the button below to take you to a live version of the project.</p>
-            <button class="projectOne" href="*">Live Version</button>
-          </div>
-          <div>
             <button id="projectTwoButton">Project Two</button>
-              <p class="projectTwo" id="projectTwoText">Project Two aka Skodo is an app that shows my knowledge of NodeJS, using a variety of libraries and packages like Express, Passport and bcrypt. Please click the button below to take you to a live version of the project.</p>
-              <button class="projectTwo" href="*">Live Version</button>
-          </div>
-          <div>
             <button id="projectThreeButton">Project Three</button>
-            <p class="projectThree" id="projectThreeText">Project Two aka ** is an app that shows my knowledge of the ReactJS framework. Please click the button below to take you to a live version of the project.</p>
-            <button class="projectThree" href="*">Live Version</button>
+          </div>
+          <div class="projectOne" >
+            <p  id="projectOneText">Project One aka Soccernopoly shows my knowledge of an API call using AJAX, JavaScript and jQuery.Please click the button below to take you to a live version of the project.</p>
+            <button  href="*">Live Version</button>
+          </div>
+          <div class="projectTwo" >
+              <p id="projectTwoText">Project Two aka Skodo is an app that shows my knowledge of NodeJS, using a variety of libraries and packages like Express, Passport and bcrypt. Please click the button below to take you to a live version of the project.</p>
+              <button href="*">Live Version</button>
+          </div>
+          <div class="projectThree" >
+            <p id="projectThreeText">Project Two aka ** is an app that shows my knowledge of the ReactJS framework. Please click the button below to take you to a live version of the project.</p>
+            <button  href="*">Live Version</button>
           </div>
       </section>
       <!--End of Portfolio section -->
 
       <!--Start of My knowledge and skills section -->
       <section class="knowledge">
-          <div id="html">
+        <h3>My Knowledge</h3>
+        <p>
+          My language and library knowledge is growing day by day. Although my level is basic in some of these areas I am confident in all. For all my upto skill sets and code please feel free to head over to my <a class="myKnowledgeLinks" target="_blank" href="https://github.com/sawheeldon">GitHub </a> or <a class="myKnowledgeLinks" target="_blank" href="https://uk.linkedin.com/in/simon-wheeldon-9aab8a4b">LinkedIn</a> page.
+        </p>
+          <div id="knowledgeLogos">
             <img class="languageLogo" src="./images/h5.png" alt="HTML 5"/>
-          </div>
-          <div id="css">
             <img class="languageLogo" src="./images/c3.png" alt="CSS 3"/>
-          </div>
-          <div id="javascript">
             <img class="languageLogo" src="./images/j.png" alt="JavaScript"/>
-          </div>
-          <div id="jQuery">
             <img class="languageLogo" src="./images/jQ.png" alt="jQuery"/>
-          </div>
-          <div id="node">
             <img class="languageLogo" src="./images/n.png" alt="NodeJS"/>
-          </div>
-          <div id="react">
             <img class="languageLogo" src="./images/r.png" alt="ReactJS"/>
           </div>
       </section>
       <!--End of My knowledge and skills section -->
       <!--End of Main section -->
     </main>
+    <!-- JS  -->
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
     <script src="index.js"> </script>
   </body>
 </html>

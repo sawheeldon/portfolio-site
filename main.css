@@ -51,9 +51,12 @@ h2{
 h3{
     font-size:30px;
     padding:0.5rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
 }
 p{
     padding:0.5rem;
+    margin-bottom:1rem;
 }
 #headshot{
     height:350px;
@@ -69,15 +72,41 @@ p{
 }
 .portfolioLinks , .knowledge{
     background-color: rgba(243,133,133,1);
-    padding:2rem;
+    padding:1rem;
     margin-left: auto;
     margin-right:auto;
 }
 button{
-    padding:1.rem;
+    padding:1rem;
+    background-color:rgb(225, 225, 225);
+    margin:1rem;
+    border:solid 2px black;
+}
+button:hover{
+    background-color: rgba(144,204,244,1);
+    color: rgb(225, 225, 225);
+    cursor:pointer;
+    border:solid 2px rgb(225, 225, 225);
+}
+a{
+    color:darkgray;
+}
+a:hover{
+    color:rgb(225, 225, 225);
+}
+.myKnowledgeLinks{
+    color:rgb(225, 225, 225);
+}
+.myKnowledgeLinks:hover{
+    color:darkgray;
 }
 .languageLogo{
     height:100px;
+    display: inline-block;
+    padding:0.7rem;
+}
+.languageLogo:hover{
+    height:115px;
 }
 /* -------------------------------------
 Header styles (Main Module)
@@ -108,19 +137,57 @@ body {
 }
 /*ipad potrait*/
 @media only screen and (max-width: 768px) {
-    body {
-        color: red;
+    button{
+        margin-top:1rem;
+        margin-left:0.1rem;
+        margin-right:0.1rem;
+        font-size: 17px;
     }
 }
 /*iPhone landscape*/
 @media only screen and (max-width: 480px) {
     body {
         color: green;
+        font-size:17px;
+    }
+    h1{
+        font-size:40px;
+        padding:0.2rem;
+    }
+    h2{
+        font-size:30px;
+        padding:0.2rem;
+    }
+    h3{
+        font-size:25px;
+        padding:0.2rem;
+    }
+
+    button{
+        font-size: 13px;
     }
 }
 /*iPhone portrait*/
 @media only screen and (max-width: 320px) {
     body {
         color: purple;
+    }
+    header{
+        padding:1rem;
+    }
+    h1{
+        font-size:35px;
+        padding:0.1rem;
+    }
+    h2{
+        font-size:25px;
+        padding:0.1rem;
+    }
+    .welcome{
+        padding:1rem;
+    }
+    button{
+        padding:0.3rem;
+
     }
 }
