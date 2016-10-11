@@ -37,7 +37,9 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 header{
-    background-color: rgba(144,204,244,1);
+    background-image:url(./images/clouds.jpg);
+    background-size:auto;
+    position: relative;
     padding:3rem;
 }
 h1{
@@ -59,22 +61,35 @@ p{
     margin-bottom:1rem;
 }
 #headshot{
-    height:350px;
+    height:300px;
     border:solid black;
     border-width: 3px;
     margin-top:1rem;
 }
 .welcome{
-    background-color:rgba(245,212,82,1);
+    background-color:rgb(225, 225, 225);
     padding:3rem;
     margin-left: auto;
     margin-right:auto;
+    border:solid black;
+    border-width: 3px;
 }
 .portfolioLinks , .knowledge{
-    background-color: rgba(243,133,133,1);
+    background-color:#05B7FF;
     padding:1rem;
     margin-left: auto;
     margin-right:auto;
+}
+.portfolioLinks{
+    border-left: solid black;
+    border-right:solid black;
+    border-width: 3px;
+}
+.knowledge{
+        border-left: solid black;
+        border-right:solid black;
+        border-bottom: solid black;
+        border-width: 3px;
 }
 button{
     padding:1rem;
@@ -83,7 +98,7 @@ button{
     border:solid 2px black;
 }
 button:hover{
-    background-color: rgba(144,204,244,1);
+    background-color: #A5DDFE;
     color: rgb(225, 225, 225);
     cursor:pointer;
     border:solid 2px rgb(225, 225, 225);
@@ -92,7 +107,7 @@ a{
     color:darkgray;
 }
 a:hover{
-    color:rgb(225, 225, 225);
+    color:#05B7FF;
 }
 .myKnowledgeLinks{
     color:rgb(225, 225, 225);
@@ -133,7 +148,7 @@ place all the mobile tables styles bellow this line
 for example the statament above says: IF the media on which this CSS is going to used is SCREEN (Mobiles, Tables, Laptops, Desktops or Projectors) and the maximum resolution of that device is 1024px, THEN apply the body color blue for all the text
 */
 body {
-    
+
 }
 /*ipad potrait*/
 @media only screen and (max-width: 768px) {
