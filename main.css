@@ -101,6 +101,13 @@ button{
     margin:1rem;
     border:solid 2px black;
 }
+.secondaryButton{
+  padding:1rem;
+  background-color:rgb(225, 225, 225);
+  margin:1rem;
+  border:solid 2px black;
+  border-radius:25px;
+}
 button:hover{
     background-color: #A5DDFE;
     color: rgb(225, 225, 225);
