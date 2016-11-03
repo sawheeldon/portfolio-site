@@ -40,7 +40,7 @@ header{
     background-image:url(./images/clouds.jpg);
     background-size:auto;
     position: relative;
-    padding:3rem;
+    padding:1rem;
 }
 h1{
     font-size:50px;
@@ -70,19 +70,24 @@ p{
 #headshot:hover {
     transform: scale(1.1) rotate(5deg);
 }
+.socialIcon{
+  height:80px;
+  width:80px;
+  padding:0.5rem;
+  transition: all .5s;
+}
+.socialIcon:hover{
+  transform: scale(1.3)
+}
 .welcome{
     background-color:rgb(225, 225, 225);
-    padding:3rem;
-    margin-left: auto;
-    margin-right:auto;
+    padding:1rem;
     border:solid black;
     border-width: 3px;
 }
 .portfolioLinks , .knowledge{
     background-color:#05B7FF;
     padding:1rem;
-    margin-left: auto;
-    margin-right:auto;
 }
 .portfolioLinks{
     border-left: solid black;
@@ -90,10 +95,18 @@ p{
     border-width: 3px;
 }
 .knowledge{
-        border-left: solid black;
-        border-right:solid black;
-        border-bottom: solid black;
-        border-width: 3px;
+    border-left: solid black;
+    border-right:solid black;
+    border-bottom: solid black;
+    border-width: 3px;
+}
+.nextSteps{
+    background-color:rgb(225, 225, 225);
+    padding:1rem;
+    border-left: solid black;
+    border-right:solid black;
+    border-bottom: solid black;
+    border-width: 3px;
 }
 button{
     padding:1rem;
@@ -130,9 +143,10 @@ a:hover{
     height:100px;
     display: inline-block;
     padding:0.7rem;
+    transition: all .5s;
 }
 .languageLogo:hover{
-    height:115px;
+    transform: scale(1.3)
 }
 /* -------------------------------------
 Header styles (Main Module)
