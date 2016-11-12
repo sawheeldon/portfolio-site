@@ -215,8 +215,12 @@ body {
         font-size:25px;
         padding:0.2rem;
     }
+    .socialIcon{
+      height:60px;
+      width:60px;
+    }
     button{
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 /*iPhone portrait*/
