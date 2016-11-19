@@ -38,8 +38,8 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 header{
-    background-image:url(./images/clouds.jpg);
-    background-size:auto;
+    background-image:url(./images/clouds.png);
+    background-size: cover;
     position: relative;
     padding:1rem;
     border-top: solid black;
@@ -73,6 +73,7 @@ p{
 #headshot{
     height:300px;
     border:solid black;
+    border-radius: 50%;
     border-width: 3px;
     margin-top:1rem;
     box-shadow: 8px 8px 5px #888888;
@@ -129,21 +130,18 @@ footer{
     border-bottom: solid black;
     border-width: 3px;
 }
+
 button{
     padding:1rem;
     background-color:rgb(225, 225, 225);
     margin:1rem;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
     border:solid 2px black;
     box-shadow: 5px 5px 5px #888888;
 }
-.secondaryButton{
-  padding:1rem;
-  background-color:rgb(225, 225, 225);
-  margin:1rem;
-  border:solid 2px black;
-  border-radius:25px;
-  box-shadow: 5px 5px 5px #888888;
-}
+
 button:hover{
     background-color: #A5DDFE;
     color: rgb(225, 225, 225);
@@ -157,10 +155,10 @@ a:hover{
     color:#05B7FF;
 }
 .emailLink{
-  color:white;
+  color:black;
 }
 .emailLink:hover{
-  color:black;
+  color:#05B7FF;
 }
 .myKnowledgeLinks{
     color:rgb(225, 225, 225);
@@ -207,7 +205,7 @@ body {
         margin-top:1rem;
         margin-left:0.1rem;
         margin-right:0.1rem;
-        font-size: 17px;
+        font-size: 14px;
     }
 }
 /*iPhone landscape*/
@@ -235,8 +233,12 @@ body {
       width:50px;
     }
     button{
-        font-size: 12px;
-        padding:0.3rem;
+        height:80px;
+        width:80px;
+    }
+    .languageLogo{
+        height:95px;
+
     }
 }
 /*iPhone portrait*/
@@ -255,5 +257,9 @@ body {
     }
     .welcome{
         padding:1rem;
+    }
+    .languageLogo{
+        height:80px;
+
     }
 }
