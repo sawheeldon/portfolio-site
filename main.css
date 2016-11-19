@@ -145,7 +145,6 @@ button{
 
 button:hover{
     background-color: #A5DDFE;
-    color: rgb(225, 225, 225);
     cursor:pointer;
     border:solid 2px rgb(225, 225, 225);
 }
